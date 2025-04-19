@@ -5,7 +5,6 @@ public class EfficientSum {
     int sum = calculateSum(numbers);
     System.out.println("Sum: " + sum);
   }
-
   public static int calculateSum(int[] numbers) {
     int sum = 0;
     for (int num : numbers) {
